@@ -3,5 +3,5 @@
 #:set ff=unix
 #:wq
 vi +':w ++ff=unix' +':q' CBB_Kali_Config.sh
-chmod +x CBB_Kali_Config.sh
+chmod 777 CBB_Kali_Config.sh
  ./CBB_Kali_Config.sh
